@@ -1,0 +1,24 @@
+{
+  "benchmark_questions": 15,
+  "dataset_rows": 50,
+  "systems": {
+    "naive_rag": {
+      "recall_at_1": 0.589,
+      "recall_at_3": 0.933,
+      "recall_at_5": 0.967,
+      "citation_accuracy": 0.813,
+      "answer_correctness": 0.733,
+      "unsupported_claim_rate": 0.148,
+      "average_end_to_end_latency_ms": 620
+    },
+    "planner_hybrid_rag": {
+      "recall_at_1": 0.756,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "citation_accuracy": 0.96,
+      "answer_correctness": 0.867,
+      "unsupported_claim_rate": 0.042,
+      "average_end_to_end_latency_ms": 880
+    }
+  }
+}

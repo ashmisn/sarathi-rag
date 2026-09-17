@@ -2,6 +2,7 @@ import sys
 import os
 import json
 import datetime
+import traceback
 from typing import List, Dict, Any, Optional # Added Optional
 
 # --- Add project root to path ---
@@ -30,7 +31,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # --- 1. Initialize the LLM ---
 try:
-    llm = ChatOllama(model=config.OLLAMA_MODEL)
+    llm = ChatOllama(model=config.OLLAMA_MODEL, base_url=config.OLLAMA_BASE_URL)
     # reranker_llm is removed
     print(f"LLM initialized with model: {config.OLLAMA_MODEL}")
 except Exception as e:

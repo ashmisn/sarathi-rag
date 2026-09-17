@@ -1,0 +1,416 @@
+{
+  "benchmark": "evaluation/benchmark.json",
+  "dataset_rows": 50,
+  "systems": {
+    "naive_rag": {
+      "queries": 15,
+      "mean_retrieval_latency_ms": 4.943693133342701,
+      "recall_at_1": 0.5888888888888889,
+      "recall_at_3": 0.9333333333333333,
+      "recall_at_5": 0.9666666666666667,
+      "per_query": [
+        {
+          "id": "stop-sign-55",
+          "top_5": [
+            4,
+            7,
+            8,
+            18,
+            1
+          ],
+          "recall_at_1": 0.0,
+          "recall_at_3": 0.0,
+          "recall_at_5": 0.5
+        },
+        {
+          "id": "interurban-spacing",
+          "top_5": [
+            4,
+            7,
+            8,
+            5,
+            19
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "gap-median-75",
+          "top_5": [
+            5,
+            16,
+            7,
+            35,
+            1
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "center-line-colour",
+          "top_5": [
+            28,
+            29,
+            33,
+            39,
+            40
+          ],
+          "recall_at_1": 0.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "speed-hump-radius-30",
+          "top_5": [
+            45,
+            46,
+            50,
+            47,
+            1
+          ],
+          "recall_at_1": 0.3333333333333333,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "bidirectional-no-overtaking",
+          "top_5": [
+            33,
+            39,
+            27,
+            2,
+            4
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "transverse-bars-70",
+          "top_5": [
+            43,
+            44,
+            49,
+            5,
+            7
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "hospital-areas",
+          "top_5": [
+            3,
+            12,
+            5,
+            7,
+            19
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "box-roundabout",
+          "top_5": [
+            22,
+            35,
+            11,
+            28,
+            33
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "object-hazard-left",
+          "top_5": [
+            9,
+            5,
+            11,
+            16,
+            7
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "give-way",
+          "top_5": [
+            35,
+            9,
+            24,
+            27,
+            28
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "ladder-hatching-colour",
+          "top_5": [
+            27,
+            37,
+            33,
+            39,
+            22
+          ],
+          "recall_at_1": 0.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "rumble-strip",
+          "top_5": [
+            33,
+            41,
+            48,
+            7,
+            19
+          ],
+          "recall_at_1": 0.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "chevron-diverging",
+          "top_5": [
+            36,
+            32,
+            19,
+            26,
+            28
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "marking-preview-90",
+          "top_5": [
+            21,
+            25,
+            4,
+            5,
+            8
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        }
+      ]
+    },
+    "planner_hybrid_rag": {
+      "queries": 15,
+      "mean_retrieval_latency_ms": 12.197257867471004,
+      "recall_at_1": 0.7555555555555556,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0,
+      "per_query": [
+        {
+          "id": "stop-sign-55",
+          "top_5": [
+            1,
+            20,
+            11,
+            2,
+            7
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "interurban-spacing",
+          "top_5": [
+            7,
+            4,
+            8,
+            2,
+            5
+          ],
+          "recall_at_1": 0.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "gap-median-75",
+          "top_5": [
+            5,
+            16,
+            6,
+            10,
+            7
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "center-line-colour",
+          "top_5": [
+            29,
+            28,
+            40,
+            32,
+            36
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "speed-hump-radius-30",
+          "top_5": [
+            45,
+            46,
+            50,
+            47,
+            42
+          ],
+          "recall_at_1": 0.3333333333333333,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "bidirectional-no-overtaking",
+          "top_5": [
+            33,
+            39,
+            27,
+            5,
+            28
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "transverse-bars-70",
+          "top_5": [
+            43,
+            44,
+            49,
+            36,
+            22
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "hospital-areas",
+          "top_5": [
+            3,
+            5,
+            19,
+            12,
+            16
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "box-roundabout",
+          "top_5": [
+            22,
+            35,
+            28,
+            36,
+            40
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "object-hazard-left",
+          "top_5": [
+            9,
+            5,
+            11,
+            16,
+            7
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "give-way",
+          "top_5": [
+            35,
+            32,
+            24,
+            28,
+            36
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "ladder-hatching-colour",
+          "top_5": [
+            37,
+            27,
+            5,
+            19,
+            25
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "rumble-strip",
+          "top_5": [
+            41,
+            48,
+            1,
+            20,
+            33
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "chevron-diverging",
+          "top_5": [
+            36,
+            32,
+            26,
+            28,
+            40
+          ],
+          "recall_at_1": 1.0,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        },
+        {
+          "id": "marking-preview-90",
+          "top_5": [
+            21,
+            25,
+            35,
+            36,
+            22
+          ],
+          "recall_at_1": 0.5,
+          "recall_at_3": 1.0,
+          "recall_at_5": 1.0
+        }
+      ]
+    }
+  },
+  "answer_metrics": null,
+  "notes": "Retrieval metrics use the checked-in 50-row CSV. Answer metrics require model predictions."
+}

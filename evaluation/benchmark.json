@@ -1,0 +1,107 @@
+[
+  {
+    "id": "stop-sign-55",
+    "question": "What is the size of the STOP sign for a design speed of 55 km/h?",
+    "relevant_ids": [1, 20],
+    "gold_sources": [{"code": "IRC:67-2022", "clause": "14.4"}],
+    "expected_answers": ["900 mm", "30 mm", "210 mm"]
+  },
+  {
+    "id": "interurban-spacing",
+    "question": "What is the minimum spacing between two successive signs on an interurban road at 80 km/h?",
+    "relevant_ids": [4, 8],
+    "gold_sources": [{"code": "IRC:67-2022", "clause": "4.8"}],
+    "expected_answers": ["0.6*V", "48 m"]
+  },
+  {
+    "id": "gap-median-75",
+    "question": "What clear visibility distance and placement range apply to a Gap in Median sign at 75 km/h?",
+    "relevant_ids": [5],
+    "gold_sources": [{"code": "IRC:67-2022", "clause": "15.26"}],
+    "expected_answers": ["70 m", "110-180m"]
+  },
+  {
+    "id": "center-line-colour",
+    "question": "What colour should a continuous center line marking be?",
+    "relevant_ids": [29],
+    "gold_sources": [{"code": "IRC:35-2015", "clause": "4.1"}],
+    "expected_answers": ["white"]
+  },
+  {
+    "id": "speed-hump-radius-30",
+    "question": "What is the recommended radius for a circular speed hump designed for 30 km/h?",
+    "relevant_ids": [45, 46, 50],
+    "gold_sources": [{"code": "IRC:99-2018", "clause": "3.1.1.1"}],
+    "expected_answers": ["20 m"]
+  },
+  {
+    "id": "bidirectional-no-overtaking",
+    "question": "List the colours and spacing for bi-directional road studs on a four-lane divided road in a no-overtaking section.",
+    "relevant_ids": [33],
+    "gold_sources": [{"code": "IRC:35-2015", "clause": "5.5"}],
+    "expected_answers": ["yellow-yellow", "red-white", "white-white", "6 m"]
+  },
+  {
+    "id": "transverse-bars-70",
+    "question": "A transverse bar marking is being designed for a hazard with a 70 km/h approach speed. What are d1, d2, and d3?",
+    "relevant_ids": [43, 44],
+    "gold_sources": [{"code": "IRC:99-2018", "clause": "2.3.3.4"}, {"code": "IRC:99-2018", "clause": "3.7"}],
+    "expected_answers": ["d1 = 50 meters", "d2 = 80 meters", "d3 = 120 meters"]
+  },
+  {
+    "id": "hospital-areas",
+    "question": "What are the areas in square millimetres of the normal and small Hospital signs?",
+    "relevant_ids": [3],
+    "gold_sources": [{"code": "IRC:67-2022", "clause": "17.8"}],
+    "expected_answers": ["600 mm x 800 mm", "450 mm x 600 mm", "480000", "270000"]
+  },
+  {
+    "id": "box-roundabout",
+    "question": "Can a box marking be used at an unsignalised roundabout, and what are its dimensions and colour?",
+    "relevant_ids": [22],
+    "gold_sources": [{"code": "IRC:35-2015", "clause": "9.1.11"}],
+    "expected_answers": ["cannot be used", "2 m x 2 m", "yellow"]
+  },
+  {
+    "id": "object-hazard-left",
+    "question": "What are the sign size and placement rule for an object hazard on the left side of the road?",
+    "relevant_ids": [9],
+    "gold_sources": [{"code": "IRC:67-2022", "clause": "15.66"}],
+    "expected_answers": ["300 mm x 900 mm", "immediately ahead", "inner edge"]
+  },
+  {
+    "id": "give-way",
+    "question": "What are the installation rules for a Give Way marking at an intersection?",
+    "relevant_ids": [35],
+    "gold_sources": [{"code": "IRC:35-2015", "clause": "6.2"}],
+    "expected_answers": ["600 mm", "300 mm", "200 mm", "2.5–12 m"]
+  },
+  {
+    "id": "ladder-hatching-colour",
+    "question": "What colour is ladder hatching in normal, warning, and no-overtaking sections?",
+    "relevant_ids": [37],
+    "gold_sources": [{"code": "IRC:35-2015", "clause": "7.6.3"}],
+    "expected_answers": ["white", "yellow", "no overtaking"]
+  },
+  {
+    "id": "rumble-strip",
+    "question": "What are the dimensions, spacing, and typical number of raised sections for a rumble strip?",
+    "relevant_ids": [41, 48],
+    "gold_sources": [{"code": "IRC:99-2018", "clause": "2.3.3.3"}],
+    "expected_answers": ["20 to 30 mm", "200-300 mm", "one meter", "6 numbers"]
+  },
+  {
+    "id": "chevron-diverging",
+    "question": "How does chevron diverging marking spacing vary with marking length?",
+    "relevant_ids": [36],
+    "gold_sources": [{"code": "IRC:35-2015", "clause": "7.2"}],
+    "expected_answers": ["2 m", "4 m", "6 m", "600 mm"]
+  },
+  {
+    "id": "marking-preview-90",
+    "question": "What minimum preview distance is specified for a road marking at 90 km/h?",
+    "relevant_ids": [21, 25],
+    "gold_sources": [{"code": "IRC:35-2015", "clause": "2.7"}],
+    "expected_answers": ["56 m"]
+  }
+]

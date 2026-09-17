@@ -1,0 +1,1 @@
+{"system":"planner_hybrid_rag","id":"stop-sign-55","answer":"For 51–65 km/h, the STOP sign is 900 mm high with a 30 mm border and 210 mm font.","citations":[{"code":"IRC:67-2022","clause":"14.4"}],"retrieved_ids":[1,20],"latency_ms":842,"prompt_tokens":410,"completion_tokens":96}
